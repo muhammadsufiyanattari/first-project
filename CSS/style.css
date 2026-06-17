@@ -7,7 +7,6 @@
 }
 .siteBody {
   padding-left: 20px;
-
   padding-right: 20px;
 }
 
@@ -159,3 +158,65 @@
 }
 
 /* Section 2 Closed */
+/* Card Section */
+#cardSection{
+   display: flex;
+flex-direction: column;
+/* align-items: center; */
+  padding: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* gap: 80px; */
+  /* background-color: #315db6; */
+  border: 2px dashed #c3c6d7;
+  border-radius: 2px;
+}
+#cardTitle h1{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+#cardContainer{
+  display: flex;
+  justify-content: space-between;
+  
+  gap: 20px;
+  /* border: 1px solid blue; */
+  /* flex-wrap: wrap; */
+  flex-grow: 1;
+}
+#card{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #004AC6;
+  border-radius: 3px;
+  padding: 24px;
+  /* border: 1px solid red; */
+  gap: 20px;
+  width: 400px;
+  height: 240px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* padding: 16px; */
+  /* gap: 16px; */
+}
+#cardText p{
+  color: #434655;
+}
+#cardBtn Button{
+  width: 100%;
+  padding: 2px 5px;
+  color: #004ac6;
+  border: 2px solid #004ac6;
+  border-radius: 3px;
+}
+#cardBtn Button:hover{
+  width: 100%;
+  padding: 2px 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #004ac6;
+  border: 2px solid #004ac6;
+  border-radius: 3px;
+}
