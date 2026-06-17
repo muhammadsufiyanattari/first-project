@@ -3,7 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppies", sans-serif;
 }
 .siteBody {
   padding-left: 20px;
@@ -159,10 +159,10 @@
 
 /* Section 2 Closed */
 /* Card Section */
-#cardSection{
-   display: flex;
-flex-direction: column;
-/* align-items: center; */
+#cardSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
   padding: 24px;
   margin-left: 20px;
   margin-right: 20px;
@@ -171,24 +171,24 @@ flex-direction: column;
   border: 2px dashed #c3c6d7;
   border-radius: 2px;
 }
-#cardTitle h1{
+#cardTitle h1 {
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
 }
-#cardContainer{
+#cardContainer {
   display: flex;
   justify-content: space-between;
-  
+
   gap: 20px;
   /* border: 1px solid blue; */
   /* flex-wrap: wrap; */
   flex-grow: 1;
 }
-#card{
+#card {
   display: flex;
   flex-direction: column;
-  border: 3px solid #004AC6;
+  border: 3px solid #004ac6;
   border-radius: 3px;
   padding: 24px;
   /* border: 1px solid red; */
@@ -201,17 +201,17 @@ flex-direction: column;
   /* padding: 16px; */
   /* gap: 16px; */
 }
-#cardText p{
+#cardText p {
   color: #434655;
 }
-#cardBtn Button{
+#cardBtn Button {
   width: 100%;
   padding: 2px 5px;
   color: #004ac6;
   border: 2px solid #004ac6;
   border-radius: 3px;
 }
-#cardBtn Button:hover{
+#cardBtn Button:hover {
   width: 100%;
   padding: 2px 5px;
   color: white;
@@ -222,8 +222,88 @@ flex-direction: column;
 }
 /* Card Section Closed */
 /* ContactForm Section */
-#formCantainer{
+#formCantainer {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppies", sans-serif;
+  /* align-items: center; */
+  /* background-color: #C3C6D7; */
   flex-direction: column;
- background-color:#004AC6
+  padding: 24px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  background-color: #e7e8ef;
+  border: 2px dashed #c3c6d7;
+  border-radius: 2px;
+
+  /* background-color:#004AC6 */
 }
+#formHeading h1 {
+  display: flex;
+  justify-content: center;
+}
+#formCantainer form {
+  display: flex;
+  background-color: white;
+  /* width: 672px; */
+  height: 385px;
+  /* justify-content: center; */
+  /* gap: 20px; */
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+  border: 1px solid #c3c6d7;
+  border-radius: 3px;
+  padding: 0px 24px;
+}
+#formCantainer form label {
+  display: flex;
+  /* background-color: #004AC6; */
+  color: #6d7184;
+  width: 620px;
+  height: 20px;
+  margin-top: 5px;
+  /* justify-content:baseline; */
+}
+#formCantainer form input {
+  width: 620px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  /* padding: 1px 0px; */
+  /* background-color: white; */
+}
+#formCantainer form input::placeholder {
+  padding: 40px 10px;
+  color: #434655;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  font-family: "Poppies", sans-serif;
+  border-radius: 3px;
+}
+#message {
+  height: 116px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+#message::placeholder {
+  padding: 10px;
+  font-family: "Poppies", sans-serif;
+  color: #434655;
+  background-color: white;
+  font-size: 16px;
+}
+#formBtn {
+  margin-top: 5px;
+  height: 60px;
+  background-color: #004ac6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+/* ContactForm Section Close */

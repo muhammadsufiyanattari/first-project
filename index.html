@@ -101,19 +101,22 @@
     </div>
     <!-- Card Section Close -->
     <!-- ContactForm Section -->
-    <div id="formCantainer">
+     <div>
+      <div class="siteBody">
+    <div id="formCantainer" >
       <div id="formHeading"><h1>Contact Us</h1></div>
       <form action="">
-        <label for="name">Name
-        <input type="text" id="name" name="name" />
-        </label>
-        <label for="email">Email
-        <input type="email" id="email" name="email" />
-        </label>
-        <label for="message">Message
-        <input type="text" id="message" name="message" />
-        </label>
+        <label for="name">Name</label>
+        <input placeholder="Your Name" type="text" id="name" name="name" />
+        
+        <label for="email">Email</label>
+        <input placeholder="Example@gmail.com" type="email" id="email" name="email" />
+        
+        <label for="message">Message</label>
+      <textarea placeholder="Tell us about your learning goals" name="message" id="message"></textarea>
+      <Button id="formBtn">Send Message</Button>
       </form>
+    </div>
     </div>
   </body>
 </html>
