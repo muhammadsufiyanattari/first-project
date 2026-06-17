@@ -220,3 +220,10 @@ flex-direction: column;
   border: 2px solid #004ac6;
   border-radius: 3px;
 }
+/* Card Section Closed */
+/* ContactForm Section */
+#formCantainer{
+  display: flex;
+  flex-direction: column;
+ background-color:#004AC6
+}
