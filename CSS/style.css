@@ -82,18 +82,26 @@
 /* Section 1 */
 #sectionOne {
   display: flex;
+  flex-grow: 1;
+
   margin-top: 64px;
   margin-bottom: 64px;
   /* background-color: aquamarine; */
 }
 #coverDiv {
   display: flex;
-
+  align-items: center;
+flex-grow: 1;
   padding: 24px;
-  gap: 80px;
+  width: 100%;
+  gap: 150px;
   /* background-color: #315db6; */
   border: 2px dashed #c3c6d7;
   border-radius: 2px;
+}
+#imageOne img{
+  width: 700px;
+  height: auto;
 }
 #wordingMain {
   /* background-color: #c6d7c3; */
@@ -110,6 +118,7 @@
 #wordingMain p {
   margin: 20px 0px;
   font-size: 16px;
+  width: 534px;
   line-height: 1.5em;
   word-spacing: 2px;
   color: #434655;
@@ -163,13 +172,21 @@
 }
 #coverDivTwo {
   display: flex;
+  /* width: 100%; */
   flex-direction: row-reverse;
-
+flex-grow: 1;
   padding: 24px;
   gap: 80px;
   background-color: #e7e8ef;
   border: 2px dashed #c3c6d7;
   border-radius: 2px;
+}
+#imageTwo {
+  flex-grow: 1;
+}
+#imageTwo img{
+  /* width: 600px; */
+  height: auto;
 }
 #wordingMainTwo {
   /* background-color: #c6d7c3; */
@@ -187,6 +204,7 @@
 #wordingMainTwo p {
   margin: 20px 0px;
   font-size: 16px;
+  /* width: 534px; */
   line-height: 1.5em;
   word-spacing: 2px;
   color: #434655;
@@ -271,6 +289,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
   font-family: "Poppies", sans-serif;
   /* align-items: center; */
   /* background-color: #C3C6D7; */
@@ -379,7 +398,7 @@
   display: flex;
   gap: 20px;
   text-decoration: underline;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-weight: bold;
   font-size: 12px;
   color: #434655;
