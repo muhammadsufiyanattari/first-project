@@ -34,12 +34,6 @@
 }
 /* Navigation Bar Close */
 
-/* Logo */
-#navbar #logo {
-  /* display: flex; */
-}
-/* Logo Close */
-
 /* Menu ul  */
 #manu ul {
   display: flex;
@@ -55,9 +49,11 @@
 }
 #manu ul li a:hover {
   color: #004ac6;
+  font-weight: bold;
   text-decoration: underline;
 }
 /* Menu item anchor Close */
+/* Nav Btn */
 #NavBtn Button {
   background-color: #004ac6;
   color: white;
@@ -67,11 +63,22 @@
   letter-spacing: 2px;
   word-spacing: 2px;
   border-radius: 4px;
+  cursor: pointer;
 }
 #NavBtn Button:hover {
   background-color: #0741a5;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
 }
+#NavBtn Button:active {
+  background-color: #3966b4;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+/* Nav Btn Close */
+
 /* Header Closed */
+
 /* Section 1 */
 #sectionOne {
   display: flex;
@@ -111,6 +118,34 @@
   background-color: #004ac6;
   color: white;
   border: none;
+  padding: 8px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border-radius: 4px;
+}
+#wordingMain #sectionOneBtn Button:hover {
+  background-color: #093581;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 8px 50px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border-radius: 4px;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+#wordingMain #sectionOneBtn Button:active {
+  background-color: #3c6cbe;
+  color: white;
+  cursor: pointer;
+  /* font-weight: bold; */
+  border: none;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
   padding: 8px 50px;
   font-size: 16px;
   letter-spacing: 2px;
@@ -210,6 +245,7 @@
   color: #004ac6;
   border: 2px solid #004ac6;
   border-radius: 3px;
+  cursor: pointer;
 }
 #cardBtn Button:hover {
   width: 100%;
@@ -217,6 +253,15 @@
   color: white;
   cursor: pointer;
   background-color: #004ac6;
+  border: 2px solid #004ac6;
+  border-radius: 3px;
+}
+#cardBtn Button:active {
+  width: 100%;
+  padding: 2px 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #042764;
   border: 2px solid #004ac6;
   border-radius: 3px;
 }
@@ -305,10 +350,20 @@
   color: white;
   border: none;
   border-radius: 3px;
+  cursor: pointer;
+}
+#formBtn:active {
+  margin-top: 5px;
+  height: 60px;
+  background-color: #1a69f0;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }
 /* ContactForm Section Close */
 /* Footer */
-#footerCantainer{
+#footerCantainer {
   display: flex;
   background-color: #e7e8ef;
   justify-content: space-between;
@@ -316,16 +371,17 @@
   align-items: center;
   height: 98px;
 }
-#footerLeft{
-display: flex;
-flex-direction: column;
+#footerLeft {
+  display: flex;
+  flex-direction: column;
 }
-#footerRight{
-display: flex;
-gap: 20px;
-text-decoration: underline;
-cursor: pointer;
-font-weight: bold;
-font-size: 12px;
-color: #434655;
+#footerRight {
+  display: flex;
+  gap: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 12px;
+  color: #434655;
 }
+/* Footer Close */
