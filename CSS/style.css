@@ -79,138 +79,140 @@
 
 /* Header Closed */
 
-/* Section 1 */
+/* ==================== Section 1 ==================== */
 #sectionOne {
   display: flex;
-  flex-grow: 1;
-
   margin-top: 64px;
   margin-bottom: 64px;
-  /* background-color: aquamarine; */
 }
+
 #coverDiv {
   display: flex;
   align-items: center;
-flex-grow: 1;
-  padding: 24px;
+  flex-grow: 1;
+  padding: 48px;          
   width: 100%;
-  gap: 150px;
-  /* background-color: #315db6; */
+  gap: 50px;              
   border: 2px dashed #c3c6d7;
-  border-radius: 2px;
+  border-radius: 4px;
 }
-#imageOne img{
-  width: 700px;
+
+#wordingMain, #imageOne {
+  flex: 1;                
+  width: 50%;
+}
+
+#imageOne img {
+  width: 100%;            
+  max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 4px;     
 }
+
 #wordingMain {
-  /* background-color: #c6d7c3; */
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
 
-  /* justify-content: space-evenly; */
-  font-size: 10px;
-}
 #wordingMain h1 {
-  margin: 20px 0px;
-  font-size: 30px;
+  margin: 0 0 16px 0;
+  font-size: 38px;        
+  font-weight: 700;
+  color: #1a1d20;         
+  letter-spacing: -0.5px;
 }
+
 #wordingMain p {
-  margin: 20px 0px;
-  font-size: 16px;
-  width: 534px;
-  line-height: 1.5em;
-  word-spacing: 2px;
+  margin: 0 0 32px 0;
+  font-size: 18px;       
+  max-width: 540px;       
+  line-height: 1.65;     
   color: #434655;
 }
-#wordingMain #sectionOneBtn Button {
+
+/* Button Styling */
+#wordingMain #sectionOneBtn button {
   background-color: #004ac6;
   color: white;
   border: none;
-  padding: 8px 50px;
+  padding: 14px 36px;    
   font-size: 16px;
+  font-weight: 600;
   cursor: pointer;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  letter-spacing: 0.5px;
   border-radius: 4px;
+  transition: all 0.2s ease;
 }
-#wordingMain #sectionOneBtn Button:hover {
-  background-color: #093581;
-  color: white;
-  cursor: pointer;
-  border: none;
-  padding: 8px 50px;
-  font-size: 16px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  border-radius: 4px;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-}
-#wordingMain #sectionOneBtn Button:active {
-  background-color: #3c6cbe;
-  color: white;
-  cursor: pointer;
-  /* font-weight: bold; */
-  border: none;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-  padding: 8px 50px;
-  font-size: 16px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  border-radius: 4px;
-}
-/* Section 1 Closed */
 
-/* Section 2 */
+#wordingMain #sectionOneBtn button:hover {
+  background-color: #093581;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+}
+
+#wordingMain #sectionOneBtn button:active {
+  background-color: #3c6cbe;
+}
+
+/* ==================== Closed Section 1 ==================== */
+
+/* ==================== Section 2 ==================== */
 #sectionTwo {
   display: flex;
   margin-top: 64px;
   margin-bottom: 64px;
-  /* background-color: aquamarine; */
 }
+
 #coverDivTwo {
   display: flex;
-  /* width: 100%; */
-  flex-direction: row-reverse;
-flex-grow: 1;
-  padding: 24px;
-  gap: 80px;
+  flex-direction: row-reverse; /* Left side par image, right par text */
+  align-items: center;
+  flex-grow: 1;
+  padding: 48px;
+  gap: 50px;                 
   background-color: #e7e8ef;
   border: 2px dashed #c3c6d7;
-  border-radius: 2px;
+  border-radius: 4px;
 }
-#imageTwo {
-  flex-grow: 1;
+
+#wordingMainTwo, #imageTwo {
+  flex: 1;
+  width: 50%;
 }
-#imageTwo img{
-  /* width: 600px; */
+
+#imageTwo img {
+  width: 100%;               
+  max-width: 100%;
   height: auto;
+  display: block;
+  border-radius: 4px;
 }
+
 #wordingMainTwo {
-  /* background-color: #c6d7c3; */
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
 
-  /* justify-content: space-evenly; */
-  font-size: 10px;
-}
 #wordingMainTwo h1 {
-  margin: 20px 0px;
-  font-size: 30px;
+  margin: 0 0 16px 0;
+  font-size: 38px;        
+  font-weight: 700;
+  color: #1a1d20;
+  letter-spacing: -0.5px;
 }
+
 #wordingMainTwo p {
-  margin: 20px 0px;
-  font-size: 16px;
-  /* width: 534px; */
-  line-height: 1.5em;
-  word-spacing: 2px;
+  margin: 0 0 0 0;        
+  font-size: 18px;        
+  max-width: 540px;
+  line-height: 1.65;
   color: #434655;
 }
+/* ==================== Closed Section 2 ==================== */
 
-/* Section 2 Closed */
 /* Card Section */
 #cardSection {
   display: flex;
