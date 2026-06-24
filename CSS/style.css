@@ -357,6 +357,9 @@
   border: 1px solid gray;
   border-radius: 3px;
 }
+textarea{
+  resize: none;
+}
 #message::placeholder {
   padding: 10px;
   font-family: "Poppies", sans-serif;
