@@ -29,12 +29,12 @@ body {
   }
  
   #manu{
-    
+    order: 2;
   width: 100%;
 
 }
 #manu ul{
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   
 
@@ -54,9 +54,53 @@ body {
 }
 #NavBtn{
   width: 100%;
+  text-align: center;
   /* background-color: brown; */
 }
-#NavBtn button{
-width: 100%;
+#coverDiv{
+  flex-direction: column-reverse;
 }
+#coverDivTwo{
+  flex-direction: column-reverse;
+}
+#wordingMain, #imageOne{
+  width: 100%;
+}
+#wordingMainTwo, #imageTwo{
+  width: 100%;
+}
+#cardContainer{
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+}
+#card{
+  width: 100%;
+  height: auto;
+}
+#formCantainer{
+  /* width: 100px; */
+  align-items: center;
+  padding: 5px;
+  
+}
+#formCantainer form input{
+    min-width: 400px;
+  width: auto;
+}
+#formCantainer form label{
+    min-width: 400px;
+  width: auto;
+}
+}
+@media (max-width: 600px) {
+  #formCantainer form input{
+    min-width: 250px;
+  width: auto;
+}
+#formCantainer form label{
+    min-width: 250px;
+  width: auto;
+}
+
 }
