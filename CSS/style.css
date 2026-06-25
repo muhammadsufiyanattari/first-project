@@ -90,24 +90,25 @@
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 48px;          
+  padding: 48px;
   width: 100%;
-  gap: 50px;              
+  gap: 50px;
   border: 2px dashed #c3c6d7;
   border-radius: 4px;
 }
 
-#wordingMain, #imageOne {
-  flex: 1;                
+#wordingMain,
+#imageOne {
+  flex: 1;
   width: 50%;
 }
 
 #imageOne img {
-  width: 100%;            
+  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
-  border-radius: 4px;     
+  border-radius: 4px;
 }
 
 #wordingMain {
@@ -118,17 +119,17 @@
 
 #wordingMain h1 {
   margin: 0 0 16px 0;
-  font-size: 38px;        
+  font-size: 38px;
   font-weight: 700;
-  color: #1a1d20;         
+  color: #1a1d20;
   letter-spacing: -0.5px;
 }
 
 #wordingMain p {
   margin: 0 0 32px 0;
-  font-size: 18px;       
-  max-width: 540px;       
-  line-height: 1.65;     
+  font-size: 18px;
+  max-width: 540px;
+  line-height: 1.65;
   color: #434655;
 }
 
@@ -137,7 +138,7 @@
   background-color: #004ac6;
   color: white;
   border: none;
-  padding: 14px 36px;    
+  padding: 14px 36px;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
@@ -171,19 +172,20 @@
   align-items: center;
   flex-grow: 1;
   padding: 48px;
-  gap: 50px;                 
+  gap: 50px;
   background-color: #e7e8ef;
   border: 2px dashed #c3c6d7;
   border-radius: 4px;
 }
 
-#wordingMainTwo, #imageTwo {
+#wordingMainTwo,
+#imageTwo {
   flex: 1;
   width: 50%;
 }
 
 #imageTwo img {
-  width: 100%;               
+  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
@@ -198,15 +200,15 @@
 
 #wordingMainTwo h1 {
   margin: 0 0 16px 0;
-  font-size: 38px;        
+  font-size: 38px;
   font-weight: 700;
   color: #1a1d20;
   letter-spacing: -0.5px;
 }
 
 #wordingMainTwo p {
-  margin: 0 0 0 0;        
-  font-size: 18px;        
+  margin: 0 0 0 0;
+  font-size: 18px;
   max-width: 540px;
   line-height: 1.65;
   color: #434655;
@@ -357,7 +359,7 @@
   border: 1px solid gray;
   border-radius: 3px;
 }
-textarea{
+textarea {
   resize: none;
 }
 #message::placeholder {
