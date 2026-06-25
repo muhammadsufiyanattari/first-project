@@ -18,6 +18,14 @@ body {
     flex-direction: column;
     gap: 20px;
   }
+  #log{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #log img{
+    width: auto;
+  }
  
   #manu{
     
