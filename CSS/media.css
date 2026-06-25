@@ -92,8 +92,15 @@ body {
     min-width: 400px;
   width: auto;
 }
+#footerLeft{
+  gap: 10px;
 }
-@media (max-width: 600px) {
+#footerLeft p{
+  width: 400px;
+}
+
+}
+@media (max-width: 720px) {
   h1{
     font-size:30px !important;
   }
@@ -108,5 +115,23 @@ body {
     min-width: 250px;
   width: auto;
 }
-
+#footerCantainer{
+  flex-direction: column;
+  padding: 10px 0px;
+  height: auto;
+}
+#footerLeft{
+  gap: 20px;
+  align-items: center;
+}
+#footerLeft h1{
+text-align: center;
+}
+#footerLeft p{
+text-align: center;
+}
+#footerRight{
+  margin-top: 10px;
+  flex-direction: column;
+}
 }
