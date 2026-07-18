@@ -5,409 +5,50 @@
   padding: 0;
   font-family: "Poppies", sans-serif;
 }
-.siteBody {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+body{
+  background-color: aliceblue;
 
-/* Complete body Close */
-/* Header */
-/* Header main div Start */
-#header {
-  /* background-color: red; */
-  height: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: auto;
-  border-bottom: 3px solid #004ac6;
 }
-/* Header main div Close */
-
-/* Navigation Bar Start */
-#navBar {
-  /* background-color: blue; */
-  height: 100%;
+img{
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
-/* Navigation Bar Close */
+.container {
+width: 90%;
+margin: 0 auto;
+}
+header{
+  border-bottom:3px solid blue ;
+  background-color: white;
 
-/* Menu ul  */
-#manu ul {
-  display: flex;
-  gap: 20px;
+}
+.header-div{
+  background-color: transparent;
+display: grid;
+height: 70px;
+align-items: center;
+grid-template-columns: auto 1fr auto;
+}
+nav ul {
+  
+  display: grid;
+  justify-items: center;
+
+  grid-template-columns:auto auto auto auto;
+}
+nav ul li{
   list-style: none;
 }
-/* Menu ul Close */
-
-/* Menu item anchor */
-#manu ul li a {
+nav ul li a{
+  
   text-decoration: none;
-  color: #434655;
 }
-#manu ul li a:hover {
-  color: #004ac6;
+.primryBtn{
+  padding: 8px 55px;
+  border-radius: 8px;
+  background-color: blue;
+  color: white;
+  font-size: 16px;
   font-weight: bold;
-  text-decoration: underline;
-}
-/* Menu item anchor Close */
-/* Nav Btn */
-#NavBtn Button {
-  background-color: #004ac6;
-  color: white;
   border: none;
-  padding: 8px 50px;
-  font-size: 16px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
-  border-radius: 4px;
   cursor: pointer;
 }
-#NavBtn Button:hover {
-  background-color: #0741a5;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-}
-#NavBtn Button:active {
-  background-color: #3966b4;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-}
-/* Nav Btn Close */
-
-/* Header Closed */
-
-/* ==================== Section 1 ==================== */
-#sectionOne {
-  display: flex;
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
-#coverDiv {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-  padding: 48px;
-  width: 100%;
-  gap: 50px;
-  border: 2px dashed #c3c6d7;
-  border-radius: 4px;
-}
-
-#wordingMain,
-#imageOne {
-  flex: 1;
-  width: 50%;
-}
-
-#imageOne img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-}
-
-#wordingMain {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#wordingMain h1 {
-  margin: 0 0 16px 0;
-  font-size: 38px;
-  font-weight: 700;
-  color: #1a1d20;
-  letter-spacing: -0.5px;
-}
-
-#wordingMain p {
-  margin: 0 0 32px 0;
-  font-size: 18px;
-  max-width: 540px;
-  line-height: 1.65;
-  color: #434655;
-}
-
-/* Button Styling */
-#wordingMain #sectionOneBtn button {
-  background-color: #004ac6;
-  color: white;
-  border: none;
-  padding: 14px 36px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  letter-spacing: 0.5px;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-}
-
-#wordingMain #sectionOneBtn button:hover {
-  background-color: #093581;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-}
-
-#wordingMain #sectionOneBtn button:active {
-  background-color: #3c6cbe;
-}
-
-/* ==================== Closed Section 1 ==================== */
-
-/* ==================== Section 2 ==================== */
-#sectionTwo {
-  display: flex;
-  margin-top: 64px;
-  margin-bottom: 64px;
-}
-
-#coverDivTwo {
-  display: flex;
-  flex-direction: row-reverse; /* Left side par image, right par text */
-  align-items: center;
-  flex-grow: 1;
-  padding: 48px;
-  gap: 50px;
-  background-color: #e7e8ef;
-  border: 2px dashed #c3c6d7;
-  border-radius: 4px;
-}
-
-#wordingMainTwo,
-#imageTwo {
-  flex: 1;
-  width: 50%;
-}
-
-#imageTwo img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-}
-
-#wordingMainTwo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-#wordingMainTwo h1 {
-  margin: 0 0 16px 0;
-  font-size: 38px;
-  font-weight: 700;
-  color: #1a1d20;
-  letter-spacing: -0.5px;
-}
-
-#wordingMainTwo p {
-  margin: 0 0 0 0;
-  font-size: 18px;
-  max-width: 540px;
-  line-height: 1.65;
-  color: #434655;
-}
-/* ==================== Closed Section 2 ==================== */
-
-/* Card Section */
-#cardSection {
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-  padding: 24px;
-  margin-left: 20px;
-  margin-right: 20px;
-  /* gap: 80px; */
-  /* background-color: #315db6; */
-  border: 2px dashed #c3c6d7;
-  border-radius: 2px;
-}
-#cardTitle h1 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-#cardContainer {
-  display: flex;
-  justify-content: space-between;
-
-  gap: 20px;
-  /* border: 1px solid blue; */
-  /* flex-wrap: wrap; */
-  flex-grow: 1;
-}
-#card {
-  display: flex;
-  flex-direction: column;
-  border: 3px solid #004ac6;
-  border-radius: 3px;
-  padding: 24px;
-  /* border: 1px solid red; */
-  gap: 20px;
-  width: 400px;
-  height: 240px;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* padding: 16px; */
-  /* gap: 16px; */
-}
-#cardText p {
-  color: #434655;
-}
-#cardBtn Button {
-  width: 100%;
-  padding: 2px 5px;
-  color: #004ac6;
-  border: 2px solid #004ac6;
-  border-radius: 3px;
-  cursor: pointer;
-}
-#cardBtn Button:hover {
-  width: 100%;
-  padding: 2px 5px;
-  color: white;
-  cursor: pointer;
-  background-color: #004ac6;
-  border: 2px solid #004ac6;
-  border-radius: 3px;
-}
-#cardBtn Button:active {
-  width: 100%;
-  padding: 2px 5px;
-  color: white;
-  cursor: pointer;
-  background-color: #042764;
-  border: 2px solid #004ac6;
-  border-radius: 3px;
-}
-/* Card Section Closed */
-/* ContactForm Section */
-#formCantainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  font-family: "Poppies", sans-serif;
-  /* align-items: center; */
-  /* background-color: #C3C6D7; */
-  flex-direction: column;
-  padding: 24px;
-  margin-top: 64px;
-  margin-bottom: 64px;
-  /* margin-left: 20px;
-  margin-right: 20px; */
-  background-color: #e7e8ef;
-  border: 2px dashed #c3c6d7;
-  border-radius: 2px;
-
-  /* background-color:#004AC6 */
-}
-#formHeading h1 {
-  display: flex;
-  justify-content: center;
-}
-#formCantainer form {
-  display: flex;
-  background-color: white;
-  /* width: 672px; */
-  height: 385px;
-  /* justify-content: center; */
-  /* gap: 20px; */
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  color: white;
-  border: 1px solid #c3c6d7;
-  border-radius: 3px;
-  padding: 0px 24px;
-}
-#formCantainer form label {
-  display: flex;
-  /* background-color: #004AC6; */
-  color: #6d7184;
-  width: 620px;
-  height: 20px;
-  margin-top: 5px;
-  /* justify-content:baseline; */
-}
-#formCantainer form input {
-  width: 620px;
-  height: 40px;
-  border: 1px solid gray;
-  border-radius: 3px;
-  /* padding: 1px 0px; */
-  /* background-color: white; */
-}
-#formCantainer form input::placeholder {
-  padding: 40px 10px;
-  color: #434655;
-  background-color: white;
-  font-size: 16px;
-  border: none;
-  font-family: "Poppies", sans-serif;
-  border-radius: 3px;
-}
-#message {
-  height: 116px;
-  border: 1px solid gray;
-  border-radius: 3px;
-}
-textarea {
-  resize: none;
-}
-#message::placeholder {
-  padding: 10px;
-  font-family: "Poppies", sans-serif;
-  color: #434655;
-  background-color: white;
-  font-size: 16px;
-}
-#formBtn {
-  margin-top: 5px;
-  height: 60px;
-  background-color: #004ac6;
-  color: white;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-#formBtn:active {
-  margin-top: 5px;
-  height: 60px;
-  background-color: #1a69f0;
-  cursor: pointer;
-  color: white;
-  border: none;
-  border-radius: 3px;
-}
-/* ContactForm Section Close */
-/* Footer */
-#footerCantainer {
-  display: flex;
-  background-color: #e7e8ef;
-  justify-content: space-between;
-  width: auto;
-  align-items: center;
-  height: 98px;
-}
-#footerLeft {
-  display: flex;
-  flex-direction: column;
-}
-#footerRight {
-  display: flex;
-  gap: 20px;
-  text-decoration: underline;
-  /* cursor: pointer; */
-  font-weight: bold;
-  font-size: 12px;
-  color: #434655;
-}
-/* Footer Close */
