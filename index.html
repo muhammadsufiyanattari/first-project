@@ -4,31 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/media.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <div id="header" class="siteBody">
-      <div id="navBar">
-        <div id="log"><img src="./avatar/logo.png" alt="logo" /></div>
-        <div id="manu">
+    <header>
+      <div class="container " id="header-div">
+        <img  id="logo" src="./avatar/logo.png" alt="logo" />
+        <nav>
           <ul>
-            <li><a href="">Lessons</a></li>
+            <li><a href="#lesson">Lessons</a></li>
             <li><a href="#cardSection">Courses</a></li>
             <li><a href="">Editor</a></li>
-            <li><a href="#sectionTwo">About</a></li>
+            <li><a href="#about">About</a></li>
           </ul>
-        </div>
-        <div id="NavBtn">
-          <button id="loginBtn">Get Started</button>
-        </div>
+        </nav>
+        <button class="primryBtn">Get Start</button>
       </div>
-    </div>
-    <!-- Navigation Bar Close -->
-    <!-- Section 1 -->
-    <div id="sectionOne" class="siteBody">
-      <div id="coverDiv">
+    </header>
+    <section  id="lesson" class="container ">
+      <div id="coverDiv" class="">
         <div id="wordingMain">
           <div id="wordingOne">
             <h1>Learn Web Development.</h1>
@@ -37,18 +32,18 @@
               for  absolute beginners to understand the structural logic of HTML
               and the  visual power of CSS..
             </p>
-            <div id="sectionOneBtn"><button>Start Learning</button></div>
+            <div id="sectionOneBtn"><button class="primryBtn">Start Learning</button></div>
           </div>
         </div>
-        <div id="imageOne"><img src="./avatar/sectionOneimg.png" alt="" /></div>
+        <div id="imageOne"><img src="./avatar/sectionOneimg.png" alt=""></div>
       </div>
-    </div>
-    <!-- Section 1 Close -->
-    <!-- Section 2 -->
-    <div id="sectionTwo" class="siteBody">
-      <div id="coverDivTwo">
-        <div id="wordingMainTwo">
-          <div id="wordingTwo">
+    </section>
+    <section  id="about" class="container ">
+      <div id="coverDiv" class="">
+                <div id="imageOne"><img src="./avatar/sectionTwoimg.png" alt=""></div>
+
+        <div id="wordingMain">
+          <div id="wordingOne">
             <h1>About</h1>
             <p>
               SQUAD CODERSDEV is more than just a school. We believe that the
@@ -58,79 +53,87 @@
             </p>
           </div>
         </div>
-        <div id="imageTwo"><img src="./avatar/sectionTwoimg.png" alt="" /></div>
       </div>
-    </div> 
-    <!-- Section 2 Close -->
-    <!-- Card Section -->
-    <div id="cardSection" class="siteBody">
-      <div id="cardTitle"><h1>Our Courses</h1></div>
-      <div id="cardContainer">
-        <!-- Card 1 -->
-         <div id="card">
-          <div id="carImg"><img src="./avatar/HTML.png" alt="HTML" /></div>
-          <div id="cardHeading"><h2>HTML</h2></div>
-          <div id="cardText">
-            <p>
-              Master the structural skeleton and the visual skin of the
-              internet.
-            </p>
+    </section>
+    <section id="capture-moment-section">
+        <div id="capture-moment-main-div" class="container">
+          <div class="capture-moment-text" id="tourPakages-text-div">
+            <h2>Captured Moments</h2>
+            <p>Glimpses into the journeys of our happy travelers.</p>
           </div>
-          <div id="cardBtn"><button>Enroll Now</button></div>
-        </div> 
-        <!-- Card 2 -->
-         <div id="card">
-          <div id="carImg"><img src="./avatar/JS.png" alt="JavaScript" /></div>
-          <div id="cardHeading"><h2>JavaScript</h2></div>
-          <div id="cardText">
-            <p>
-              Bring your websites to life with logic, loops, and interactivity
-            </p>
+          <div id="capture-moment-images-main">
+            <!-- capture-moment-images-break-One -->
+            <div id="capture-moment-imagesOne">
+                <img class="smallImg" src="./avatar/capture-moment-One.png" alt="">
+                <img class="smallImg" src="./avatar/capture-moment--Two.png" alt="">
+                <img class="largeImg" src="./avatar/capture-moment-Three.png" alt="">
+            </div>
+            <!-- capture-moment-images-break-Two -->
+            <div id="capture-moment-imagesTwo">
+                <img  class="largeImg" src="./avatar/capture-moment-Four.png" alt="">
+             
+                <img class="smallImg" src="./avatar/capture-moment-Five.png" alt="">
+                <img class="smallImg" src="./avatar/capture-moment-Six.png" alt="">
+            </div>
           </div>
-          <div id="cardBtn"><button>Enroll Now</button></div>
-        </div> 
-        <!-- Card 3 -->
-         <div id="card">
-          <div id="carImg"><img src="./avatar/python.png" alt="" /></div>
-          <div id="cardHeading"><h2>Python</h2></div>
-          <div id="cardText">
-            <p>Step into backend development and data science with ease.</p>
+        </div>
+      </section>
+      <section id="contact-section">
+        <div id="contact-section-main-div" class="container">
+          <div id="contact-left-side">
+            <div id="contact-left-side-text">
+              <h2>Contact Us</h2>
+              <p>
+                Have questions? We're here to help you plan the trip of a
+                lifetime. <br>
+                Reach out via any of these channels or fill out the form.
+              </p>
+            </div>
+            <div id="contact-left-side-icon-main">
+              <div class="contact-icon-flex">
+                <div class="contact-left-side-icon">
+                  <img src="./avatar/office.png" alt="office">
+                </div>
+                <div class="contact-left-side-text">
+                  <h3>Our Office</h3>
+                  <p>123 Wanderlust Lane, Adventure City, AC 56789</p>
+                </div>
+              </div>
+              <div class="contact-icon-flex">
+                <div class="contact-left-side-icon">
+                  <img src="./avatar/email.png" alt="email">
+                </div>
+                <div class="contact-left-side-text">
+                  <h3>Email Support</h3>
+                  <p>hello@exploreworld.com</p>
+                </div>
+              </div>
+              <div class="contact-icon-flex">
+                <div class="contact-left-side-icon">
+                  <img src="./avatar/phone.png" alt="phone">
+                </div>
+                <div class="contact-left-side-text">
+                  <h3>Phone Number</h3>
+                  <p>+1 (555) 000-EXPLORE</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="cardBtn"><button>Enroll Now</button></div>
-        </div> 
-      </div>
-    </div> 
-    <!-- Card Section Close -->
-    <!-- ContactForm Section -->
-     <div>
-      <div class="siteBody">
-    <div id="formCantainer" >
-      <div id="formHeading"><h1>Contact Us</h1></div>
-      <form action="">
-        <label for="name">Name</label>
-        <input placeholder="Your Name" type="text" id="name" name="name" />
-        
-        <label for="email">Email</label>
-        <input placeholder="Example@gmail.com" type="email" id="email" name="email" />
-        
-        <label for="message">Message</label>
-      <textarea  placeholder="Tell us about your learning goals" name="message" id="message"></textarea>
-      <Button id="formBtn">Send Message</Button>
-      </form>
-    </div>
-    </div> 
-        <!-- ContactForm Section -->
-                <!-- Footer -->
-                <div id="footerCantainer" class="siteBody">
-                  <div id="footerLeft">
-                    <h3>SQUAD CODERSDEV</h3>
-                    <p>© 2024 SQUAD CODERSDEV. Educational Functionalism</p>
-                  </div>
-                  <div id="footerRight">
-                    <p>Documentation</p>
-                    <p>Privacy Policy</p>
-                    <p>Terms of Service</p>
-                  </div>
-                 </div>
+          <div id="contact-right-side">
+            <form action="">
+             <div id="nameEmail">
+                <label for="Name">Name: <br><input type="text" name="text" id="" placeholder="Muhammad Sufiyan"></label>
+                <label for="email">Email: <br><input type="email" name="email" id="" placeholder="msuifyan234@gmail.com"></label>
+            </div>
+              
+                <label for="message">Message: <br>
+                  <textarea name="message" id="text-aera" placeholder="Tell us about your dream destination..."></textarea>
+                </label>
+            
+             <button>Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
   </body>
 </html>
