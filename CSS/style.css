@@ -19,6 +19,7 @@ body{
 h2{
   margin: 5px 0px;
 }
+
 ::placeholder{
   color: var(--gray);
 }
@@ -195,10 +196,23 @@ border: none;
 }
 #contact-section-main-div{
   display: grid;
+  box-sizing: border-box;
     margin: 50px auto;
     align-items: center;
   grid-template-columns: repeat(2,1fr);
       height: 456px !important;
+}
+.contact-icon-flex{
+  display: grid;
+  gap: 5px;
+}
+#contact-left-side-text{
+  display: grid;
+  gap: 10px ;
+  margin-bottom: 10px;
+}
+#contact-left-side-text h2{
+font-size: 32px;
 }
 .contact-left-side-icon img{
   width: 48px;
