@@ -1,10 +1,6 @@
-@media (max-width:900px) {
- .header-div{
-  grid-template-rows: auto auto auto auto;
-  height: auto;
- }  
- nav ul{
-    grid-template-rows: 1fr 1fr 1fr 1fr;
- 
- }
+@media (width:900px){
+    #header-div{
+        grid-template-rows:repeat(3,1fr ) ;
+        height: 100vh !important;
+    }
 }
